@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Drinks & Cocktails</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Drinks & Cocktails</h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#nameSearch">Search by name</a></li>
+          <li><a href="#ingredientSearch">Search by ingredient</a></li>
+          <li><a href="#random">Random drink</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="nameSearch" id="nameSearch">
+        <h2>Search by name</h2>
+        <form action="" method="get"></form>
+        <input
+          type="search"
+          name="name"
+          id="name"
+          placeholder="Name ex. margarita"
+        />
+        <div class="btnContainer">
+          <button type="submit" id="searchSubmit">Search</button>
+        </div>
+        <div class="drinksContainer"></div>
+      </section>
+      <hr />
+      <section class="ingredientSearch" id="ingredientSearch">
+        <h2>Search by ingredient</h2>
+        <form action="" method="get"></form>
+        <input
+          type="search"
+          name="ingredient"
+          id="ingredient"
+          placeholder="Ingredient ex. gin"
+        />
+        <div class="btnContainer">
+          <button type="submit" id="ingredientSubmit">Search</button>
+        </div>
+        <div class="drinksContainer"></div>
+        <div class="btnContainer" id="moreBtnContainer">
+          <button type="submit" id="moreBtn">More</button>
+        </div>
+      </section>
+      <hr />
+      <section class="random" id="random">
+        <h2>Random drink</h2>
+        <form action="" method="get"></form>
+        <div class="btnContainer">
+          <button type="submit" id="randomSubmit">Get a drink!</button>
+        </div>
+        <div class="randomContainer"></div>
+      </section>
+    </main>
+    <footer>
+      <p>Async JS and DOM manipulation exercise</p>
+      <p>
+        <a href="https://simplecss.org/" target="_blank"
+          >Simple.css - A CSS framework</a
+        >
+      </p>
+      <p>
+        Data from
+        <a href="https://www.thecocktaildb.com/api.php" target="_blank"
+          >TheCocktailDB</a
+        >
+      </p>
+      <p>&copy; KalMar 2023</p>
+    </footer>
+  </body>
+</html>
