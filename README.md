@@ -1,5 +1,7 @@
 # Drinks & Cocktails Frontend Project
 
+[Drinks & Cocktails](https://kalmarek.tech/drinks/)
+
 Welcome to the Drinks & Cocktails Frontend Project! This small personal project is designed to showcase information on various drinks using [TheCocktailDB API](https://www.thecocktaildb.com/api.php) and [Simple.css Framework](https://simplecss.org/). 
 
 The primary goal in crafting this project was to provide a hands-on learning experience for implementing asynchronous JavaScript and DOM manipulation. My aim was to deepen my understanding of these concepts and enhance my skills in creating dynamic and responsive user interfaces. I developed this project independently, referring only to the API documentation, the SimpleCSS framework and MDN. No step by step tutorials.
